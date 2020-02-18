@@ -176,12 +176,15 @@ header {
 .services__title {
   margin-top: 20px;
   margin-bottom: 17px;
+  overflow: hidden;
 
   font-weight: 900;
   font-size: 30px;
   color: #666d89;
   text-transform: capitalize;
   letter-spacing: 0.003em;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 
 .services__text {
@@ -224,6 +227,7 @@ header {
   margin-top: 0;
   margin-bottom: 6px;
   margin-left: 79px;
+  overflow: hidden;
 
   font-weight: 900;
   font-size: 18px;
@@ -231,6 +235,8 @@ header {
   text-transform: capitalize;
   letter-spacing: 0.009em;
   word-spacing: -0.099em;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 
 .service-box:nth-child(3n) .service-box__title {
@@ -257,4 +263,5 @@ header {
   color: #767e9e;
   letter-spacing: 0.0086em;
   word-spacing: -0.0849em;
+  text-overflow: ellipsis;
 }
