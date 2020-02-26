@@ -95,14 +95,16 @@ header {
 }
 
 .slider {
+  box-sizing: border-box;
   height: 600px;
 
   background-color: #f06c64;
+  border-bottom: 6px solid #ea676b;
 }
 
 .slider__arrow {
   position: absolute;
-  top: 46.5%;
+  top: 47%;
 
   padding: 2px;
 
