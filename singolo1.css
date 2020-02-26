@@ -202,19 +202,27 @@ header {
   word-spacing: -0.097em;
 }
 
-.service-boxes {
+.layout-3-column {
   display: flex;
   flex-wrap: wrap;
-  margin: 0 -10px;
+  margin-right: -10px;
+  margin-left: -10px;
+}
+
+.layout-3-column > * {
+  display: block;
+  box-sizing: border-box;
+  width: 320px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.services__boxes {
   margin-top: 43px;
 }
 
 .service-box {
-  box-sizing: border-box;
-  width: 320px;
   margin-bottom: 17px;
-  padding-right: 10px;
-  padding-left: 10px;
 }
 
 .service-box__image {
@@ -265,5 +273,4 @@ header {
   color: #767e9e;
   letter-spacing: 0.0086em;
   word-spacing: -0.0849em;
-  text-overflow: ellipsis;
 }
