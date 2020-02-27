@@ -67,10 +67,11 @@ p {
 
 .portfolio__tags {
   margin-left: 1px;
+
+  word-spacing: 6px;
 }
 
 .tag {
-  margin-right: 5px;
   padding: 4px 6px;
 
   font-weight: 400;
@@ -94,12 +95,19 @@ p {
 }
 
 .tag:nth-child(1) {
-  padding: 4px 7px;
+  padding: 4px 6.5px;
+
+  letter-spacing: 0.004em;
+}
+
+.tag:nth-child(3) {
+  padding-right: 5px;
 
   letter-spacing: 0.004em;
 }
 
 .tag:nth-child(4) {
+  margin-left: -1px;
   padding-right: 5px;
 }
 
