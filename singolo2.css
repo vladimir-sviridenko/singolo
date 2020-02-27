@@ -165,6 +165,7 @@ p {
   color: #666d89;
   text-transform: capitalize;
   letter-spacing: 0.002em;
+  word-spacing: -0.03em;
   white-space: nowrap;
 }
 
@@ -202,7 +203,7 @@ p {
   font-weight: 900;
   font-size: 18px;
   color: #666d89;
-  letter-spacing: 0.002em;
+  letter-spacing: 0.001em;
   word-spacing: -0.03em;
   white-space: nowrap;
   text-overflow: ellipsis;
