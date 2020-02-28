@@ -333,6 +333,7 @@ header {
 }
 
 .portfolio__tags {
+  height: 19px;
   margin-left: 1px;
 
   word-spacing: 6px;
@@ -548,7 +549,9 @@ header {
 }
 
 textarea {
-  height: 143px !important;
+  display: block;
+  height: 148px !important;
+  margin-top: 0;
   padding: 8px 15px;
 
   resize: none;
