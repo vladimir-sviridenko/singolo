@@ -191,8 +191,31 @@ header {
   left: 11px;
   z-index: 3;
 
+  width: 188px;
+  height: 333px;
+  overflow: hidden;
+
   border: 3px solid #c6c6c6;
   border-radius: 4px;
+}
+
+.slide__phone-vertical > .screen {
+  background-image: url("./assets/images/slider/screen-vertical.jpg");
+  background-position: -14px -135px;
+}
+
+.slide__phone-horizontal > .screen::before {
+  content: "";
+  position: absolute;
+  top: -122px;
+  left: -119px;
+  z-index: -1;
+
+  width: 580px;
+  height: 580px;
+
+  background-image: url("./assets/images/slider/screen-horizontal.jpg");
+  transform: rotate(-90deg);
 }
 
 .services {
